@@ -1,0 +1,126 @@
+* {
+    box-sizing:border-box;
+    margin: 0;
+    padding: 30;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+    
+}
+
+nav {
+    height: 68px;
+    background:#F98A39;
+    display: flex;
+    justify-content:space-between;
+    align-items:flex-end;
+    padding-left: 14%;
+    padding-bottom: 0.1%;
+    font-size: 2rem;
+  
+}
+
+.logo {
+    color:#131212;
+    font-size: 3.0rem;
+    font-weight:lighter;
+    font-style:normal;
+    padding: 0.1rem;
+  
+ 
+}
+
+nav a {
+    text-decoration:none;
+    color: #131212;
+    padding: 0 3.7rem;
+   
+
+}
+
+.hero {
+    background:#FFF1E0;
+}
+
+.hero-container {
+    
+display:grid;
+grid-template-columns: 1fr 1fr;
+height: 100rem;
+padding:0 5.0rem;
+
+}
+
+.column-left {
+    background: #FFF1E0;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: flex-start;
+    color:#131212;
+    padding:0rem 0.5rem;
+
+}
+
+.column-left h1 {
+
+    margin-bottom: 9.0rem;
+    font-size: 4.0rem;
+    line-height: 0.5;
+    padding-left: 0 0.1rem;
+}
+
+.column-left p {
+   
+    margin-bottom: 5rem;
+    font-size: 1.5rem;
+    line-height: 1.5rem;
+
+
+}
+button {
+    margin-bottom: 2rem;
+    font-size: 4.3rem;
+    border: none;
+    color:#1a1918;
+    background:#F98A39;
+    cursor: pointer;
+    border-radius: 9px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 8rem;
+    padding-right: 8rem;
+    box-shadow: 5.5px 5.5px 5.5px rgb(184, 184, 184);
+    text-shadow: 4px 4px 4px rgb(106, 87, 61);
+   
+}
+
+button:hover {
+    background: #FFF1E0;
+    color: bisque;
+    
+
+}
+
+.column-right {
+    background: #FFF1E0;
+    display:flex;
+    justify-content:flex-end;
+    align-items: center;
+    padding: 0rem 5rem;
+
+}
+
+.hero-image {
+    
+    width: 10%;
+    height: 10%;
+}
+
+
+@media screen and { max-width: 768px) {
+    .hero-container {
+       grid-template-columns: 1fr; 
+    }
+}
+    
+
